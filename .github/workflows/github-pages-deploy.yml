@@ -16,3 +16,4 @@ jobs:
           username: 'tdawatson'
           reponame: 'bad-news-beers'
           token: ${{ secrets.GITHUB_TOKEN }}
+          cname: 'badnewsbeers.net'
