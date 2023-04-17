@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2022-05-01",
+    "start_time": "7:00 pm",
+    "opponent": "New York Yankees",
+    "location": "Fenway Park"
+  },
+  {
+    "date": "2022-05-02",
+    "start_time": "20:00",
+    "opponent": "Toronto Blue Jays",
+    "location": "Rogers Centre"
+  }
+]
