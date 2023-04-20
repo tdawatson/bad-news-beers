@@ -33,7 +33,7 @@ export default {
   },
   computed: {
     googleMapsLink() {
-      return `https://www.google.com/maps/search/${this.game.location}`
+      return `https://www.google.com/maps/search/${this.game.address}`
     }
   }
 }
