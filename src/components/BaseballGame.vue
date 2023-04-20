@@ -22,7 +22,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { weekday: 'long', month: 'long', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en-US', options)
+      return new Date( date + 'T00:00:00-07:00').toLocaleDateString('en-US', options)
     },
     formatTime(time) {
       const [hours, minutes] = time.split(':');
