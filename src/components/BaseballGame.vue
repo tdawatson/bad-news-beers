@@ -21,7 +21,7 @@ export default {
   },
   methods: {
     formatDate(date) {
-      const options = { weekday: 'long', month: 'long', day: 'numeric' }
+      const options = { dateStyle: 'long' }
       return new Date(date).toLocaleDateString('en-US', options)
     },
     formatTime(time) {
