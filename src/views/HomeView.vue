@@ -35,14 +35,14 @@ export default {
       const now = new Date();
       return this.games.filter(game => {
         const gameDate = new Date(game.date);
-        return gameDate >= now;
+        return gameDate > now.setDate(now.getDate() -1);
       }).sort((a, b) => new Date(a.date) - new Date(b.date));
     },
     pastGames() {
       const now = new Date();
       return this.games.filter(game => {
         const gameDate = new Date(game.date);
-        return gameDate < now;
+        return gameDate < now.setDate(now.getDate() - 1);
       }).sort((a, b) => new Date(b.date) - new Date(a.date));
     }
   },
