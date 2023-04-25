@@ -2,23 +2,23 @@
   <div className="games-list">
     <h2 className="games-list__title">Upcoming Games</h2>
     <div v-if="upcomingGames.length">
-      <baseball-game v-for="game in upcomingGames" :key="game.id" :game="game"/>
+      <baseball-game v-for="game in upcomingGames" :key="game.id" :game="game" :is-upcoming=true />
     </div>
     <div v-else>
       <p>No upcoming games.</p>
     </div>
     <h2 className="games-list__title">Past Games</h2>
     <div v-if="pastGames.length">
-      <baseball-game v-for="game in pastGames" :key="game.id" :game="game"/>
+      <baseball-game v-for="game in pastGames" :key="game.id" :game="game" :is-upcoming=false />
     </div>
     <div v-else>
       <p>No past games.</p>
     </div>
   </div>
 </template>
+
 <script>
 import BaseballGame from '@/components/BaseballGame.vue';
-// import games from '@/data/games.json';
 
 export default {
   name: 'HomeView',
@@ -55,6 +55,7 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 .games-list {
   max-width: 800px;
