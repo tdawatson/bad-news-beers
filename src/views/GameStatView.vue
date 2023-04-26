@@ -28,7 +28,7 @@ export default {
 
     onMounted(async () => {
       try {
-        const response = await axios.get(`/stats/${date.value}.json`)
+        const response = await axios.get(`/game-stats/${date.value}.json`)
         game.value = response.data
       } catch (error) {
         console.error(error)

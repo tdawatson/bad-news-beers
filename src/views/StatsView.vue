@@ -18,10 +18,10 @@ export default {
     const combinedPlayers = ref([])
 
     onMounted(async () => {
-      const statsFiles = await axios.get('/stats')
+      const statsFiles = await axios.get('/game-stats')
       const statsData = await Promise.all(
           statsFiles.data.map(async (file) => {
-            const response = await axios.get(`/stats/${file}`)
+            const response = await axios.get(`/game-stats/${file}`)
             return response.data
           })
       )
