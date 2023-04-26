@@ -11,6 +11,11 @@ const routes = [
     path: '/stats',
     name: 'stats',
     component: () => import('../views/StatsView.vue')
+  },
+  {
+    path: '/stats/:date',
+    name: 'game-stats',
+    component: () => import('../views/GameStatView.vue')
   }
 ]
 

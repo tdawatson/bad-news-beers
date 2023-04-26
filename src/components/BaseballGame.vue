@@ -29,6 +29,9 @@
           </div>
           <br>
           <div>
+            <router-link to="/stats/2023-04-24">Game Stats</router-link>
+          </div>
+          <div>
             <a :href="game.scoresheet_image_url" target="_blank"> Scoresheet </a>
           </div>
           <br>
