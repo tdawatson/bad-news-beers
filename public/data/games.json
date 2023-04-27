@@ -9,12 +9,134 @@
     "winner": "Bad News Beers",
     "scoresheet_image_url": "scores/2023-04-24.jpg",
     "game_summary": [
-      "The game got off to a slow start, with both the Bad News Beers and the Brew Jays looking like they were half-asleep. It was a snooze-fest for the first few innings, with the only excitement being the sound of crickets chirping in the background.",
-      "But things picked up quickly, and the game turned into a wild rollercoaster ride of highs and lows. The Brew Jays suffered an early setback when one of their star players broke their finger, but the Bad News Beers didn't show any mercy, hitting home runs left and right.",
-      "However, it was Beers player Kyle who stole the show when he reluctantly brought the injured Brew Jays player back to life. The crowd couldn't believe what they were seeing as Kyle performed life-saving measures on the field. Who knew that a game of baseball could turn into a medical drama?",
-      "Meanwhile, Beers player Taylor was making some impressive moves of her own, including an incredible sliding catch of a fly ball that had the crowd on the edge of their seats.",
-      "In the end, it was the Bad News Beers who emerged victorious, thanks to their incredible talent and determination. The Brew Jays may have lost the game, but they couldn't help but be impressed by the heroism and sportsmanship of their opponents. It was a game that no one in the stadium would ever forget.",
+      "Oh boy, oh boy, oh boy! What a game we had today, folks! It was the Bad News Beers versus the Brew Jays, and let me tell ya, these two teams were hoppy to go head-to-head!",
+      "The first two innings were as slow as a snail riding a tortoise, but things really picked up in the third. A player from the Brew Jays dislocated his finger, but don't worry, Kyle from the Bad News Beers came to the rescue. He popped that finger back into place faster than you can say \"ouch!\"",
+      "And then there was Taylor from the Bad News Beers. He's been out of the game for a few years, but you couldn't tell from the way he played today. He made an unbelievable foul ball catch that left everyone in the stands brew-hahaing with excitement!",
+      "But in the end, it was the Bad News Beers who came out on top. They played like champs, and let me tell ya, they really earned their hops today. The Brew Jays may have lost, but they're still a great team. It just wasn't their barley day.",
+      "So raise your glasses, folks, and give a cheer for the Bad News Beers! They played a heck of a game, and they deserve all the praise they can get. And remember, folks, always root for the team with the best puns – they're the real winners in the end!",
       "\uD83D\uDC4B\uD83C\uDF89⚾️\uD83D\uDD25\uD83C\uDF7A"
+    ],
+    "player_stats": [
+      {
+        "name": "Taylor Tettensor",
+        "ab": 4,
+        "o": 3,
+        "1b": 0,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Bryden Haines",
+        "ab": 4,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Christina Haines",
+        "ab": 4,
+        "o": 2,
+        "1b": 2,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Tanner Leduc",
+        "ab": 4,
+        "o": 0,
+        "1b": 0,
+        "2b": 3,
+        "3b": 0,
+        "hr": 1,
+        "r": 3
+      },
+      {
+        "name": "Kyle Cochrane",
+        "ab": 4,
+        "o": 2,
+        "1b": 0,
+        "2b": 0,
+        "3b": 0,
+        "hr": 2,
+        "r": 2
+      },
+      {
+        "name": "Jaclyn Watson",
+        "ab": 4,
+        "o": 2,
+        "1b": 1,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 1
+      },
+      {
+        "name": "Matthew Atkinson",
+        "ab": 4,
+        "o": 2,
+        "1b": 2,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 1
+      },
+      {
+        "name": "Tyler Watson",
+        "ab": 4,
+        "o": 2,
+        "1b": 1,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Jenn Hellwig",
+        "ab": 4,
+        "o": 2,
+        "1b": 2,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Kaleb Robinson",
+        "ab": 4,
+        "o": 0,
+        "1b": 2,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Lucas Koutroumanos",
+        "ab": 3,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 1
+      },
+      {
+        "name": "Caitlyn Olson",
+        "ab": 3,
+        "o": 0,
+        "1b": 1,
+        "2b": 2,
+        "3b": 0,
+        "hr": 0,
+        "r": 1
+      }
     ]
   },
   {

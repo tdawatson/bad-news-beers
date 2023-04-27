@@ -6,9 +6,9 @@
 </template>
 
 <script>
-import StatTable from '@/components/StatTable.vue'
-import { ref, onMounted } from 'vue'
-import axios from 'axios'
+import StatTable from '@/components/StatTable.vue';
+import {onMounted, ref} from 'vue';
+import axios from 'axios';
 
 export default {
   components: {
@@ -18,18 +18,14 @@ export default {
     const combinedPlayers = ref([])
 
     onMounted(async () => {
-      const statsFiles = await axios.get('/game-stats')
-      const statsData = await Promise.all(
-          statsFiles.data.map(async (file) => {
-            const response = await axios.get(`/game-stats/${file}`)
-            return response.data
-          })
-      )
+      const response = await axios.get('/data/games.json')
+      const games = response.data;
+      const statsData = games.map(game => game.player_stats).filter(stats => stats !== undefined).flat();
+      console.log(statsData)
 
-      const players = statsData.flatMap((game) => game.players)
-      const playerNames = new Set(players.map((player) => player.name))
-      const uniquePlayers = [...playerNames].map((name) => {
-        const playerStats = players.filter((player) => player.name === name)
+      const playerNames = new Set(statsData.map((player) => player.name))
+      combinedPlayers.value = [...playerNames].map((name) => {
+        const playerStats = statsData.filter((player) => player.name === name)
         return {
           name,
           ab: playerStats.reduce((acc, curr) => acc + curr.ab, 0),
@@ -41,8 +37,6 @@ export default {
           r: playerStats.reduce((acc, curr) => acc + curr.r, 0)
         }
       })
-
-      combinedPlayers.value = uniquePlayers
     })
 
     return {

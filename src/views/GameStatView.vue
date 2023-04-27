@@ -2,7 +2,7 @@
   <div>
     <div v-if="game">
       <h2>{{game.opponent}} - {{ formattedDate }}</h2>
-      <StatTable :players="game.players" />
+      <StatTable :players="game.player_stats" />
     </div>
   </div>
 </template>
@@ -28,8 +28,9 @@ export default {
 
     onMounted(async () => {
       try {
-        const response = await axios.get(`/game-stats/${date.value}.json`)
-        game.value = response.data
+        const response = await axios.get(`/data/games.json`)
+        const games = response.data
+        game.value = games.find(game => game.date === date.value)
       } catch (error) {
         console.error(error)
       }

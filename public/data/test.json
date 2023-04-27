@@ -1,0 +1,155 @@
+[
+  {
+    "date": "2023-04-24",
+    "start_time": "19:00",
+    "opponent": "Brew Jays \uD83D\uDC4E \uD83D\uDC4E",
+    "player_stats": [
+      {
+        "name": "Taylor Tettensor",
+        "ab": 4,
+        "o": 3,
+        "1b": 0,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Bryden Haines",
+        "ab": 4,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      }
+    ]
+  },
+  {
+    "date": "2023-05-01",
+    "start_time": "19:00",
+    "opponent": "Threat Level Midnight",
+    "player_stats": [
+      {
+        "name": "Taylor Tettensor",
+        "ab": 4,
+        "o": 3,
+        "1b": 0,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Bryden Haines",
+        "ab": 4,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      }
+    ]
+  },
+  {
+    "date": "2023-05-08",
+    "start_time": "18:00",
+    "opponent": "Base Invaders",
+    "player_stats": [
+      {
+        "name": "Taylor Tettensor",
+        "ab": 4,
+        "o": 3,
+        "1b": 0,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Bryden Haines",
+        "ab": 4,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      }
+    ]
+  }
+]
+
+I want
+
+[
+  [
+    {
+      "name": "Taylor Tettensor",
+      "ab": 4,
+      "o": 3,
+      "1b": 0,
+      "2b": 1,
+      "3b": 0,
+      "hr": 0,
+      "r": 0
+    },
+    {
+      "name": "Bryden Haines",
+      "ab": 4,
+      "o": 0,
+      "1b": 3,
+      "2b": 0,
+      "3b": 0,
+      "hr": 0,
+      "r": 0
+    }
+  ],
+  [
+    {
+      "name": "Taylor Tettensor",
+      "ab": 4,
+      "o": 3,
+      "1b": 0,
+      "2b": 1,
+      "3b": 0,
+      "hr": 0,
+      "r": 0
+    },
+    {
+      "name": "Bryden Haines",
+      "ab": 4,
+      "o": 0,
+      "1b": 3,
+      "2b": 0,
+      "3b": 0,
+      "hr": 0,
+      "r": 0
+    }
+  ],
+  [
+    {
+      "name": "Taylor Tettensor",
+      "ab": 4,
+      "o": 3,
+      "1b": 0,
+      "2b": 1,
+      "3b": 0,
+      "hr": 0,
+      "r": 0
+    },
+    {
+      "name": "Bryden Haines",
+      "ab": 4,
+      "o": 0,
+      "1b": 3,
+      "2b": 0,
+      "3b": 0,
+      "hr": 0,
+      "r": 0
+    }
+  ]
+
+]
