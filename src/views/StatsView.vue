@@ -36,7 +36,12 @@ export default {
           hr: playerStats.reduce((acc, curr) => acc + curr.hr, 0),
           r: playerStats.reduce((acc, curr) => acc + curr.r, 0)
         }
-      })
+      }).sort((a, b) => {
+        if (b.ab === a.ab) {
+          return b.r - a.r; // sort by r in descending order if ab is the same
+        }
+        return b.ab - a.ab; // sort by ab in descending order
+      });
     })
 
     return {
