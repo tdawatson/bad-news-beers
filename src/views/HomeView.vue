@@ -33,15 +33,17 @@ export default {
   computed: {
     upcomingGames() {
       const now = new Date();
+      console.log(now.toDateString())
       return this.games.filter(game => {
-        const gameDate = new Date(game.date);
+        const gameDate = new Date(game.date + 'T' + game.start_time + ':00-07:00');
+        console.log("Game Date:", gameDate.toDateString());
         return gameDate > now.setDate(now.getDate());
       }).sort((a, b) => new Date(a.date) - new Date(b.date));
     },
     pastGames() {
       const now = new Date();
       return this.games.filter(game => {
-        const gameDate = new Date(game.date);
+        const gameDate = new Date(game.date + 'T' + game.start_time + ':00-07:00');
         return gameDate < now.setDate(now.getDate());
       }).sort((a, b) => new Date(b.date) - new Date(a.date));
     }
