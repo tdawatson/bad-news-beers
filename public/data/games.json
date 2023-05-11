@@ -278,13 +278,6 @@
     ]
   },
   {
-    "date": "2023-05-08",
-    "start_time": "18:00",
-    "opponent": "Base Invaders",
-    "location": "Woodbine Athletic Park #1",
-    "address": "96 Woodfield Dr SW"
-  },
-  {
     "date": "2023-05-15",
     "start_time": "19:00",
     "opponent": "Thundercats",
@@ -304,5 +297,12 @@
     "opponent": "The Cannons",
     "location": "Fish Creek Blvd",
     "address": "2511 Fish Creek Blvd SW"
+  },
+  {
+    "date": "2023-06-05",
+    "start_time": "18:00",
+    "opponent": "Base Invaders",
+    "location": "Woodbine Athletic Park #1",
+    "address": "96 Woodfield Dr SW"
   }
 ]
