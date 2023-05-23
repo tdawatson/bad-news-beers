@@ -423,7 +423,151 @@
     "start_time": "18:15",
     "opponent": "Peanuts",
     "location": "Fish Creek Blvd",
-    "address": "2511 Fish Creek Blvd SW"
+    "address": "2511 Fish Creek Blvd SW",
+    "score": "20-0",
+    "winner": "Bad News Beers",
+    "scoresheet_image_url": "scores/2023-05-22.jpg",
+    "game_summary": [
+      "So, we had a slow pitch game between the Bad News Beers and the Peanuts. And let me tell you, it was like watching a turtle race against a sloth on sleeping pills. I mean, come on!",
+      "So, the Peanuts ended up with zero points. Zero! I guess they forgot that this was a game and not a math test. I can imagine their coach going, \"Alright, team, remember, the goal is to score more points than you have peanuts in your pocket.\" But apparently, their pockets were as empty as my bank account after a shopping spree.",
+      "But hey, let's talk about the weather, shall we? Now, usually, we discuss the weather when it's either too hot or too cold, right? But this game was so mind-numbingly boring that the only interesting thing to talk about was how nice the weather turned out to be. It was like the weather was saying, \"Hey, sorry you're stuck watching this snail-paced game, but here's a not rainy day as compensation.\"",
+      "Now, here's something worth mentioning. In the midst of the slow pitch madness, we witnessed the first double play of the season! It was a rare gem, like finding a unicorn in a haystack. The crowd woke up from their nap, rubbed their eyes, and wondered if they had accidentally stumbled into a real sports event. I bet the players were just as shocked, thinking, \"Wait, did we actually do something cool? Can we do it again? No? Okay then, back to being snails.\"",
+      "But let's give credit where credit is due. Bench Boss John had a beautiful scoresheet. I mean, seriously, it was a work of art. It looked like Leonardo da Vinci himself had decided to ditch the Mona Lisa and create a masterpiece out of numbers and scribbles. I bet John spends more time perfecting his scoresheet than he does strategizing for the game. It's like, \"Guys, I've got this incredible game plan, but first, let me make sure my scoresheet has the right font and alignment.\"",
+      "Oh, and guess what? Shayla made her season debut! It's like watching a superhero emerge from their secret lair, ready to save the day. I can picture Shayla stepping up to the plate, bat in hand, and saying, \"Alright, folks, prepare to witness some slow-motion fireworks!\" But hey, it's always exciting to see new players hit the field and bring some fresh energy to the snail-paced madness.",
+      "And finally, the \"Bad News Beers\" improved to 4-0 and have a tournament coming up this weekend. Now, these guys are on fire! They're unstoppable! It's like they've discovered the secret ingredient to slow pitch success, and it's not even beer. Well, maybe it is, who knows? But one thing's for sure, they're ready to conquer that tournament and show everyone that slow pitch can be just as intense as a NASCAR race."
+    ],
+    "player_stats": [
+      {
+        "name": "Lucas Koutroumanos",
+        "ab": 3,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Tanner Leduc",
+        "ab": 3,
+        "o": 0,
+        "1b": 1,
+        "2b": 2,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Jaclyn Watson",
+        "ab": 3,
+        "o": 1,
+        "1b": 2,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Kaleb Robinson",
+        "ab": 3,
+        "o": 0,
+        "1b": 1,
+        "2b": 1,
+        "3b": 1,
+        "hr": 0,
+        "r": 1
+      },
+      {
+        "name": "Kyle Cochrane",
+        "ab": 4,
+        "o": 2,
+        "1b": 0,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Sydney Roth",
+        "ab": 3,
+        "o": 3,
+        "1b": 0,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 0
+      },
+      {
+        "name": "Christina Haines",
+        "ab": 3,
+        "o": 2,
+        "1b": 1,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 1
+      },
+      {
+        "name": "Taylor Tettensor",
+        "ab": 3,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 3
+      },
+      {
+        "name": "Tyler Watson",
+        "ab": 3,
+        "o": 0,
+        "1b": 1,
+        "2b": 2,
+        "3b": 0,
+        "hr": 0,
+        "r": 3
+      },
+      {
+        "name": "Sydney Roth",
+        "ab": 3,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Matt Atkinson",
+        "ab": 3,
+        "o": 1,
+        "1b": 1,
+        "2b": 1,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Bryden Haines",
+        "ab": 3,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      },
+      {
+        "name": "Shayla Pollock",
+        "ab": 3,
+        "o": 0,
+        "1b": 3,
+        "2b": 0,
+        "3b": 0,
+        "hr": 0,
+        "r": 2
+      }
+    ]
   },
   {
     "date": "2023-05-29",
