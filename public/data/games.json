@@ -579,6 +579,7 @@
     "winner": "Bad News Beers",
     "scoresheet_image_url": "scores/2023-05-29.jpg",
     "game_summary": [
+      "The Beer's won!"
     ],
     "player_stats": [
       {
@@ -707,6 +708,20 @@
     "date": "2023-06-05",
     "start_time": "18:00",
     "opponent": "Base Invaders",
+    "location": "Woodbine Athletic Park #1",
+    "address": "96 Woodfield Dr SW",
+    "score": "27-10",
+    "winner": "Bad News Beers",
+    "scoresheet_image_url": "scores/2023-06-12.jpg",
+    "game_summary": [
+    ],
+    "player_stats": [
+    ]
+  },
+  {
+    "date": "2023-06-12",
+    "start_time": "18:00",
+    "opponent": "Threat Level Midnight",
     "location": "Woodbine Athletic Park #1",
     "address": "96 Woodfield Dr SW"
   }
